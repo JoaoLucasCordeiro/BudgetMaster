@@ -55,7 +55,7 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
                     <C.Input type="radio" id="rExpenses" name="group1" onChange={() => setExpense(!isExpense)}/>
                     <C.Label htmlFor='rExpenses'>Saída</C.Label>
                 </C.RadioGroup>
-                <C.button onClick={handleSave}>ADICIONAR</C.button>
+                <C.button onClick={handleSave}>Adicionar</C.button>
             </C.Container>
             <Grid itens={transactionsList} setItens={setTransactionsList} />
         </>

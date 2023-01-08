@@ -6,7 +6,7 @@ max-width: 1120px;
 margin: 20px auto;
 width: 98%;
 background-color: #FFF;
-box-shadow: 0px 0px 5px #CCC;
+box-shadow: 5px 5px 10px #ccc;
 border-radius: 5px;
 display: flex;
 justify-content: space-around;
@@ -23,7 +23,9 @@ display: flex;
 flex-direction: column;
 `
 
-export const Label = styled.label``
+export const Label = styled.label`
+cursor: pointer;
+`
 
 
 export const Input = styled.input`
@@ -33,6 +35,11 @@ border-radius: 5px;
 padding: 5px 10px;
 font-size: 15px;
 border: 1px solid #ccc;
+transition: all .2s ease-in-out;
+
+:focus{
+    border:  1px solid #FF7C3B;
+}
 
 `
 
@@ -50,12 +57,20 @@ input {
 
 export const button = styled.button`
 
-padding: 5px 10px;
+padding: 3px 7px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
-color: white;
-background-color: teal;
+color: #FFF;
+background-color: #FF7C3B;
+font-size: 0.95rem;
+font-weight: bold;
+transition: all .2s ease-in-out;
+
+:hover{
+    transform: scaleX(1.1);
+    box-shadow: 5px 5px 10px rgba(255, 124, 59, 0.3);
+}
 
 `
 

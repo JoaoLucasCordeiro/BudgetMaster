@@ -8,6 +8,7 @@ background-color: #FFF;
 border-radius: 5px;
 padding: 5px 15px;
 width: 30%;
+box-shadow: 2px 2px 8px rgba(0,0,0,0.35);
 
 @media (max-width: 750px) {
     width: 20%;

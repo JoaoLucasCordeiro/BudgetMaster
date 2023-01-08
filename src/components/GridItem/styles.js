@@ -10,6 +10,7 @@ word-break: break-all;
 svg {
     width: 18px;
     height: 18px;
+    cursor: pointer;
 }
 
 `
