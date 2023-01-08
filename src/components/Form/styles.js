@@ -21,6 +21,7 @@ gap: 0.7rem;
 export const InputContent = styled.div`
 display: flex;
 flex-direction: column;
+
 `
 
 export const Label = styled.label`
@@ -59,18 +60,14 @@ export const button = styled.button`
 
 padding: 3px 7px;
 border: none;
-border-radius: 5px;
+border-radius: 1.35rem;
 cursor: pointer;
 color: #FFF;
-background-color: #FF7C3B;
-font-size: 0.95rem;
+background: rgb(252,148,97);
+background: linear-gradient(90deg, rgba(252,148,97,1) 0%, rgba(255,124,59,1) 49%, rgba(255,85,0,1) 100%);
+font-size: 1rem;
 font-weight: bold;
 transition: all .2s ease-in-out;
-
-:hover{
-    transform: scaleX(1.1);
-    box-shadow: 5px 5px 10px rgba(255, 124, 59, 0.3);
-}
 
 `
 

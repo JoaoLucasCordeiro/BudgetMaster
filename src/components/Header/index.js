@@ -7,7 +7,7 @@ const Header = () => {
     <C.Container>
       <C.Header>
         <C.Title>
-          BudgetMaster+
+          BudgetMaster<strong>+</strong>
         </C.Title>
       </C.Header>
     </C.Container>
